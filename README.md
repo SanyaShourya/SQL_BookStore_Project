@@ -6,10 +6,10 @@ This project is a basic database setup and analysis for a fictional bookstore us
 
 ## 📁 Project Structure
 
-- `SQL_project1.sql` – SQL script that creates tables and inserts data
-- `Books.csv` – Contains book information (Book ID, Title, Author, Genre, Year, Price, Stock)
-- `Orders.csv` – Records of orders placed, including book ID and quantity
-- `Customers.csv` – Customer data including name, city, and contact
+- `SQL_Project1.sql` – SQL script that creates tables and inserts data
+- `Books.csv` – Contains book information (Book ID, Title, Author, Genre, Published_Year, Price, Stock)
+- `Orders.csv` – Records of orders placed (Order_ID, Customer_ID, Book_ID, Order_Date, Quantity, Total_Amount)
+- `Customers.csv` – Customer data (Customer_ID, Name, Email, Phone, City, Country)
 
 ---
 
